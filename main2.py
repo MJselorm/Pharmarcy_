@@ -4,7 +4,7 @@ from bson.objectid import ObjectId
 from pydantic import BaseModel
 
 # Connect to MongoDB
-client = MongoClient("mongodb+srv://selorm:sD6CxbirGD5s5pLV@cluster0.dxelfwg.mongodb.net/?appName=Cluster0")
+client = MongoClient("#enter your link")
 db = client["UrbanPharmacy"]
 medicines_collection = db["Medicines"]
 
