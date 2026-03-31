@@ -7,7 +7,7 @@ ctk.set_appearance_mode("dark")  # dark mode 😎
 ctk.set_default_color_theme("blue")
 
 # MongoDB
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("#enter your link")
 db = client["UrbanPharmacy"]
 medicines = db["Medicines"]
 
